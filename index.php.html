@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+<title>Appointment Form</title>
+<link rel="icon" href ="images/5.ico" type="image/x-icon">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+<style>
+.a{
+
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  
+<div class="page-header">
+    <h1>Request An Appointment</h1>      
+  </div>
+  <form role="form" method="post" action="" enctype="multipart/form-data">
+<div class='well'>
+<div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text"required='required' name='name' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="usr">Age:</label>
+      <input type="text"required='required' name='age' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="sel1">Gender:</label>
+      <select name='gender'required='required' class="form-control" id="sel1">
+        <option>Male</option>
+        <option>Female</option>
+</select>
+</div>
+<div class="form-group">
+      <label for="usr">City:</label>
+      <input type="text"required='required' name='city' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="usr">Address:</label>
+      <input type="text"required='required' name='address' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="sel1">Select list (select one):</label>
+      <select name='disease' class="form-control" id="sel1">
+        <option>Diabetics</option>
+        <option>Cardiology</option>
+        <option>Endocrinology</option>
+        <option>Neurology</option>
+
+        <option>Dental</option>
+        <option>Plastic Surgery</option>
+        <option>Headache</option>
+         <option>Haematology</option>
+         <option>Oncology</option>
+        <option>Cancer</option>
+
+        <option>Cardio</option>
+        <option>physiotherapy</option>
+        <option>Orthopedic</option>
+      </select>
+</div>
+<div class="form-group">
+      <label for="usr">Doctor Name:</label>
+      <input type="text"required='required' name='doc_name' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="usr">Preferred Date:</label>
+      <input type="Date"required='required' name='date' class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="comment">Problem for which an Appointment is Required:</label>
+      <textarea class="form-control"required='required' name='t_area' rows="5" id="comment"></textarea>
+    </div>
+ <input type="submit" name='submit'class="btn btn-info" value="Submit Form">
+<a href='index.php' class='a'>Home Page</a>
+</div>
+</form>
+
+</div>
+
+</body>
